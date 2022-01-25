@@ -36,7 +36,10 @@ class MyApp extends StatelessWidget {
           if(snapshot.connectionState == ConnectionState.done){
             return MyHomePage();
           }
-          return const CircularProgressIndicator();
+          return Center(child: Container(
+            height: 48,
+              width: 48,
+              child: const CircularProgressIndicator()));
         },
       ),
     );

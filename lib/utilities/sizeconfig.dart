@@ -18,5 +18,7 @@ class SizeConfig {
     screenHeight = _mediaQueryData!.size.height;
     defaultHeight = defaultSize * screenHeight! / heightInPx;
     defaultWidth = defaultSize * screenWidth! / widthInPx;
+
+    print("SizeConfig : " + screenWidth.toString() +" " +screenHeight.toString()+" "+defaultHeight.toString()+" "+defaultWidth.toString());
   }
 }
