@@ -102,6 +102,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                         child: TabBar(
                           controller: tabcontroller,
                           indicatorColor: colorPrimary,
+                          
                           indicatorWeight: 1,
                           indicatorSize: TabBarIndicatorSize.label,
                           tabs: [
