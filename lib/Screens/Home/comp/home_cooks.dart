@@ -188,7 +188,7 @@ class _home_cooksState extends State<home_cooks> {
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(50),
-                          color: colorPrimary,
+                          color: Colors.red,
                         ),
                         width: 130,
                         child: Padding(
